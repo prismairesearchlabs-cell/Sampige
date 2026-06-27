@@ -1,0 +1,32 @@
+# SaMPiGe-Distill Requirements
+# Core dependencies
+
+# PyTorch and Lightning
+torch>=2.0.0
+torchvision>=0.15.0
+pytorch-lightning>=2.0.0
+
+# Data handling
+numpy>=1.21.0
+opencv-python>=4.5.0
+Pillow>=9.0.0
+
+# Visualization
+matplotlib>=3.4.0
+
+# Machine learning utilities
+scikit-learn>=1.0.0
+
+# Optional: DINOv2 support
+# timm>=0.6.0
+# transformers>=4.20.0
+
+# Optional: YOLOv8 support
+# ultralytics>=8.0.0
+
+# Optional: Logging
+# tensorboard>=2.8.0
+# wandb>=0.13.0
+
+# Optional: COCO evaluation
+# pycocotools>=2.0.0
