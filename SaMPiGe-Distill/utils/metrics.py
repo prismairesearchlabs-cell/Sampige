@@ -61,7 +61,7 @@ class DetectionMetrics(MetricCalculator):
         iou_thresholds: List[float] = config.validation.METRIC_THRESHOLDS,
         max_detection: int = 100
     ):
-        super().__init__()
+        
         
         self.num_classes = num_classes
         self.iou_thresholds = iou_thresholds
@@ -500,7 +500,7 @@ class KnowledgeDistillationMetrics(MetricCalculator):
     """
     
     def __init__(self):
-        super().__init__()
+        
         
         # Accumulators
         self.feature_similarities = []
