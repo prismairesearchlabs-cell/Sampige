@@ -10,7 +10,7 @@ from torchvision import transforms
 from typing import Dict, Any, Optional, Tuple, List
 import warnings
 
-from ...config import config
+from config import config
 
 
 class DINOv2Teacher(nn.Module):

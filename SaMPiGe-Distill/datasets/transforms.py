@@ -12,7 +12,7 @@ from typing import List, Dict, Any, Optional, Tuple, Union
 from PIL import Image
 import cv2
 
-from .config import config
+from config import config
 
 
 def get_transforms(

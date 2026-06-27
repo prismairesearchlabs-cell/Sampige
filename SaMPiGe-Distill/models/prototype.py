@@ -11,7 +11,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 import warnings
 
-from ...config import config
+from config import config
 
 
 class PrototypeModule(nn.Module):

@@ -11,7 +11,7 @@ import numpy as np
 from collections import defaultdict
 import warnings
 
-from .config import config
+from config import config
 
 
 class MetricCalculator:

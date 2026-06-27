@@ -15,7 +15,7 @@ from typing import List, Dict, Any, Optional, Tuple, Union
 from PIL import Image
 import random
 
-from .config import config
+from config import config
 from .transforms import get_transforms, get_augmentations
 from .collate import collate_fn
 

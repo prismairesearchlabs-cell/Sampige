@@ -16,7 +16,7 @@ import os
 from PIL import Image, ImageDraw, ImageFont
 import warnings
 
-from .config import config
+from config import config
 
 
 class Visualizer:

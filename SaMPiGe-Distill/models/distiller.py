@@ -9,7 +9,7 @@ import torch.nn.functional as F
 from typing import Dict, Any, Optional, Tuple, List
 import warnings
 
-from ...config import config
+from config import config
 from .teacher import DINOv2Teacher, TeacherWrapper
 from .student import YOLOStudent, StudentBackbone
 from .projection import ProjectionHead, FeatureProjection

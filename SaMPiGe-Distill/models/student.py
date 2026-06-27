@@ -10,7 +10,7 @@ from torchvision import models
 from typing import Dict, Any, Optional, Tuple, List
 import warnings
 
-from ...config import config
+from config import config
 from .hooks import FeatureHooks, HookManager
 
 

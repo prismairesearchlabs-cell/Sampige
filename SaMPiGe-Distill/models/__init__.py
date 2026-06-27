@@ -2,6 +2,12 @@
 Models module for SaMPiGe-Distill
 """
 
+import sys
+import os
+
+# Add parent directory to path for direct script execution
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from .teacher import DINOv2Teacher, TeacherWrapper
 from .student import YOLOStudent, StudentBackbone
 from .projection import ProjectionHead, FeatureProjection

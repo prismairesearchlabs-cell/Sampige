@@ -9,7 +9,7 @@ import torch.nn.functional as F
 from typing import Dict, Any, Optional, Tuple, List
 import math
 
-from .config import config
+from config import config
 
 
 class DetectionLoss(nn.Module):

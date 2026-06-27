@@ -2,6 +2,12 @@
 Utils module for SaMPiGe-Distill
 """
 
+import sys
+import os
+
+# Add parent directory to path for direct script execution
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from .metrics import (
     MetricCalculator,
     DetectionMetrics,

@@ -10,7 +10,7 @@ from typing import Dict, Any, Optional, Tuple, List, Callable
 import math
 import numpy as np
 
-from .config import config
+from config import config
 
 
 class DynamicWeightScheduler:

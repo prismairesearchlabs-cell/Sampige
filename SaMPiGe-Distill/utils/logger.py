@@ -12,7 +12,7 @@ import csv
 from datetime import datetime
 import warnings
 
-from .config import config
+from config import config
 
 
 class Logger:

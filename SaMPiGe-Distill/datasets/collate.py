@@ -8,7 +8,7 @@ import numpy as np
 from typing import List, Dict, Any, Tuple, Optional
 from collections import defaultdict
 
-from .config import config
+from config import config
 
 
 def collate_fn(batch: List[Dict[str, Any]]) -> Dict[str, Any]:

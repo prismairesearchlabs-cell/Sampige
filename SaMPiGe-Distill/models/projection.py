@@ -8,7 +8,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from typing import Dict, Any, Optional, Tuple, List
 
-from ...config import config
+from config import config
 
 
 class ProjectionHead(nn.Module):
